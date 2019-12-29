@@ -23,6 +23,7 @@ public class LoginService {
     private MerchantUserDao merchantUserDao;
     @Autowired
     private SessionUtil sessionUtil;
+
     /*
      * description: verifyRequestDataFormat 验证前端发来的数据格式是否正确，包含邮箱和密码 <br>
      * version: 1.0 <br>
@@ -56,18 +57,28 @@ public class LoginService {
         List<UserModel> userModel = merchantUserDao.getUserBasedPasswordAndEmail(email, password);
         System.out.println(userModel);
         if (userModel.size() == 0) {
+            //数据库没找到用户信息，返回false
             return false;
         }
         return true;
     }
 
+    /*
+     * description: 将邮箱和密码写入session <br>
+     * version: 1.0 <br>
+     * date: 2019/12/29 21:01 <br>
+     * author: laizhiwei <br>
+     *
+     * @param email
+ * @param password
+     * @return void
+     */
     public void addSessionBasedEmailandpassword(String email, String password) {
         try {
             sessionUtil.addSession("email", email);
-            sessionUtil.addSession("password",password);
+            sessionUtil.addSession("password", password);
         } catch (HttpSessionRequiredException e) {
             e.printStackTrace();
         }
-
     }
 }

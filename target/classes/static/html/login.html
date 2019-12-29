@@ -21,10 +21,12 @@
 
     <div class="content">
         <div class="register-contentArea">
-            <div class="register-contentArea-nameInput">
-                <input class="register-contentArea-nameInput-input" type="text" placeholder="昵称" id="userName"
-                       onblur="verificationUserName(); " onfocus="formatHint('userName')"/>
-                <div class="login-contentArea-nameInput-inputErrerTips" id="userNameErrerTips"></div>
+            <div class="register-contentArea-emailInput">
+                <div>
+                    <input class="register-contentArea-emailInput-input" type="text" placeholder="邮箱" id="email"
+                           onfocus="formatHint('email');" onblur="verificationEmail();"/>
+                </div>
+                <div class="register-contentArea-emailInput-inputErrerTips" id="emailInputErrerTips"></div>
             </div>
             <div class="register-contentArea-passwordInput">
                 <input class="register-contentArea-passwordInput-input" type="password" placeholder="密码"
@@ -43,7 +45,7 @@
        var verificationPasswordState = verificationPassword();
        console.log('verificationUserNameState: ' +verificationUserNameState +'verificationPasswordState: ' +verificationPasswordState)
        if (verificationPasswordState && verificationUserNameState) {
-           var name = document.getElementById('userName').value;
+           var name = document.getElementById('email').value;
            var password = document.getElementById('userPassword').value;
            var requestData = {"email": name, "password": password};
            console.log(requestData);
