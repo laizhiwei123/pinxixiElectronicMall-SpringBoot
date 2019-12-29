@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d57567eb7f790b3d83549bd0d34f30e23631d97d
-F:\Code\Java\pinxixi\src\main\java\com\pinxixi\dao\MerchantUserDao.java
-F:\Code\Java\pinxixi\src\main\java\com\pinxixi\sevices\GenerateVerificationCodeSevicesImpl.java
-F:\Code\Java\pinxixi\src\main\java\com\pinxixi\App.java
-F:\Code\Java\pinxixi\src\main\java\com\pinxixi\config\AppConfig.java
-F:\Code\Java\pinxixi\src\main\java\com\pinxixi\controllers\Test.java
-F:\Code\Java\pinxixi\src\main\java\com\pinxixi\utils\MailUtil.java
-F:\Code\Java\pinxixi\src\main\java\com\pinxixi\sevicesinterface\GenerateVerificationCodeSevices.java
-<<<<<<< HEAD
-=======
 F:\Code\Java\pinxixi\src\main\java\com\pinxixi\config\AppConfig.java
 F:\Code\Java\pinxixi\src\main\java\com\pinxixi\controllers\LoginController.java
 F:\Code\Java\pinxixi\src\main\java\com\pinxixi\controllers\RegistrController.java
@@ -24,8 +11,5 @@ F:\Code\Java\pinxixi\src\main\java\com\pinxixi\sevices\GenerateVerificationCodeS
 F:\Code\Java\pinxixi\src\main\java\com\pinxixi\App.java
 F:\Code\Java\pinxixi\src\main\java\com\pinxixi\controllers\VerifyLoginGetUserNameController.java
 F:\Code\Java\pinxixi\src\main\java\com\pinxixi\sevices\VerifyLoginGetUserNameService.java
->>>>>>> pinxixi
-=======
->>>>>>> d57567eb7f790b3d83549bd0d34f30e23631d97d
 F:\Code\Java\pinxixi\src\main\java\com\pinxixi\controllers\GenerateVerificationCodeController.java
 F:\Code\Java\pinxixi\src\main\java\com\pinxixi\model\UserModel.java

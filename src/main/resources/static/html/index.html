@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d57567eb7f790b3d83549bd0d34f30e23631d97d
 <!DOCTYPE html>
 <html style="font-size: 16px;">
 <head>
@@ -15,14 +11,16 @@
 <body class="body">
 <div class="top">
     <div class="top-redSoidLine"></div>
-    <div class="top-content" >
+    <div class="top-content">
         <img class="top-content-logo" src="../img/logo.png" onclick="location.href = '/' "/>
         <div class="top-content-search">
             <input class="top-content-search-input"/>
             <span class="top-content-search-button">搜索</span>
         </div>
         <div id="login" class="top-content-userName">
-           <div style="text-decoration: none;color: #969696;border: 0.1rem solid red;border-radius: 5rem; padding: 0.5rem 1rem" href="/login" onclick="location.href = '/login'">登录</div>
+            <div style="text-decoration: none;color: #969696;border: 0.1rem solid red;border-radius: 5rem; padding: 0.5rem 1rem"
+                 href="/login" onclick="location.href = '/login'">登录
+            </div>
         </div>
     </div>
 </div>
@@ -130,153 +128,11 @@
             success: function (responseData) {
                 console.log(responseData.stateCode);
                 if (responseData.stateCode === '200') {
-                    document.getElementById('login').innerHTML = '<div style="border: 0.1rem solid red;border-radius: 5rem; padding: 0.5rem 1rem">' +responseData.name +'</div>'
+                    document.getElementById('login').innerHTML = '<div style="border: 0.1rem solid red;border-radius: 5rem; padding: 0.5rem 1rem">' + responseData.name + '</div>'
                 }
             }
         }
     )
 </script>
 </body>
-
-<<<<<<< HEAD
-=======
-<!DOCTYPE html>
-<html style="font-size: 16px;">
-<head>
-    <meta charset="utf-8"/>
-    <title>拼西西-首页</title>
-    <link rel="stylesheet" type="text/css" href="../css/pinxixi.css"/>
-    <script type="text/javascript" src="../js/util.js"></script>
-    <script type="text/javascript" src="../js/pinxixi.js"></script>
-</head>
-
-<body class="body">
-<div class="top">
-    <div class="top-redSoidLine"></div>
-    <div class="top-content" >
-        <img class="top-content-logo" src="../img/logo.png" onclick="location.href = '/' "/>
-        <div class="top-content-search">
-            <input class="top-content-search-input"/>
-            <span class="top-content-search-button">搜索</span>
-        </div>
-        <div id="login" class="top-content-userName">
-           <div style="text-decoration: none;color: #969696;border: 0.1rem solid red;border-radius: 5rem; padding: 0.5rem 1rem" href="/login" onclick="location.href = '/login'">登录</div>
-        </div>
-    </div>
-</div>
-<div style=" position: absolute; z-index: 2;margin-left: 20rem">
-    <div style="margin-top: 0rem; margin-left: -3rem;border-style: solid;  border-width: 1rem 0.8rem 0rem; width: 0rem; height: 0rem; border-color:black  transparent  transparent;">
-    </div>
-</div>
-<div class="content">
-    <div class="index-content-menuAndPersonalizedThemeArea">
-        <div class="index-content-menuAndPersonalizedThemeArea-menu">
-            <ul class="index-content-menuAndPersonalizedThemeArea-menu-ul">
-                <a href="#" class="index-content-menuAndPersonalizedThemeArea-menu-ul-a">
-                    <li>清仓</li>
-                </a>
-                <a href="#" class="index-content-menuAndPersonalizedThemeArea-menu-ul-a">
-                    <li>清仓</li>
-                </a>
-            </ul>
-        </div>
-        <div class="index-content-menuAndPersonalizedThemeArea-PersonalizedTheme">
-            <div class="index-content-menuAndPersonalizedThemeArea-PersonalizedTheme-ThemeArea">
-                <!-- 个性主题的顶部内容 -->
-                <div>
-                    <span class="index-content-menuAndPersonalizedThemeArea-PersonalizedTheme-ThemeArea-Theme">个性主题</span>
-                </div>
-                <div class="index-content-menuAndPersonalizedThemeArea-PersonalizedTheme-ThemeArea-Subheading">
-                    热门专题，放心选购
-                </div>
-                <div class="index-content-menuAndPersonalizedThemeArea-PersonalizedTheme-ThemeArea-More">更多></div>
-            </div>
-            <div>
-                <!-- 轮播图，数据从后端接口取 -->
-            </div>
-        </div>
-    </div>
-    <div class="index-content-bestSellerArea">
-        <!-- 热销爆款顶部 -->
-        <div class="index-content-bestSellerArea-ThemeArea">
-            <div class="index-content-bestSellerArea-ThemeArea-Theme">热销爆款</div>
-            <div class="index-content-bestSellerArea-ThemeArea-Subheading">
-                潮流热款，限量抢购
-            </div>
-            <div class="index-content-bestSellerArea-ThemeArea-More">
-                更多>
-            </div>
-        </div>
-        <div class="index-content-bestSellerArea-ThemeArea-black">
-        </div>
-        <div class="index-content-bestSellerArea-ThemeArea-content">
-            <!-- 热销爆款内容 -->
-        </div>
-    </div>
-    <div class="index-content-brandAndSalePacketPostArea">
-        <div class="index-content-brandAndSalePacketPostArea-brand">
-            <!-- 品牌专场 -->
-            <div class="index-content-brandAndSalePacketPostArea-brand-ThemeArea">
-                <!-- 品牌专场的标题区 -->
-                <div class="index-content-brandAndSalePacketPostArea-brand-ThemeArea-Theme">
-                    品牌专场
-                </div>
-                <div class="index-content-brandAndSalePacketPostArea-brand-ThemeArea-Subheading">
-                    品质保证，购物无忧
-                </div>
-                <div class="index-content-brandAndSalePacketPostArea-brand-ThemeArea-More">
-                    更多>
-                </div>
-            </div>
-            <div class="index-content-brandAndSalePacketPostArea-brand-black "></div>
-            <div class="index-content-brandAndSalePacketPostArea-brand-content">
-                <!--品牌专场 的内容区  -->
-            </div>
-        </div>
-        <div class="index-content-brandAndSalePacketPostArea-dSalePacketPost">
-            <!-- 1.9包邮区 -->
-            <div class="index-content-brandAndSalePacketPostArea-dSalePacketPost-ThemeArea">
-                <div class="index-content-brandAndSalePacketPostArea-dSalePacketPost-Theme">1.9包邮</div>
-                <div class="index-content-brandAndSalePacketPostArea-dSalePacketPost-Subheading">惊喜不断，优惠不停</div>
-                <div class="index-content-brandAndSalePacketPostArea-dSalePacketPost-More">更多></div>
-            </div>
-            <div class="index-content-brandAndSalePacketPostArea-dSalePacketPost-black"></div>
-            <div class="index-content-brandAndSalePacketPostArea-dSalePacketPost-content">
-                <!-- 1.9包邮区的内容 -->
-            </div>
-        </div>
-    </div>
-    <div class="index-content-SelectedArea">
-        <div class="index-content-SelectedArea-ThemeArea">
-            <!-- 精选区的头部 -->
-            <div class="index-content-SelectedArea-Theme">精选</div>
-            <div class="index-content-SelectedArea-Subheading">用心打造精致生活</div>
-            <div class="index-content-SelectedArea-More">更多好货></div>
-        </div>
-        <div class="index-content-SelectedArea-black"></div>
-        <div class="index-content-SelectedArea-content">
-            <!-- 精选区的内容 -->
-        </div>
-    </div>
-</div>
-<script type="text/javascript">
-    ajax(
-        {
-            url: '/api/v1/GetUserName',
-            type: 'get',
-            async: true,
-            success: function (responseData) {
-                console.log(responseData.stateCode);
-                if (responseData.stateCode === '200') {
-                    document.getElementById('login').innerHTML = '<div style="border: 0.1rem solid red;border-radius: 5rem; padding: 0.5rem 1rem">' +responseData.name +'</div>'
-                }
-            }
-        }
-    )
-</script>
-</body>
-
->>>>>>> pinxixi
-=======
->>>>>>> d57567eb7f790b3d83549bd0d34f30e23631d97d
 </html>

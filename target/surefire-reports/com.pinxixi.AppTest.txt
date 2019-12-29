@@ -1,17 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d57567eb7f790b3d83549bd0d34f30e23631d97d
 -------------------------------------------------------------------------------
 Test set: com.pinxixi.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in com.pinxixi.AppTest
-<<<<<<< HEAD
-=======
--------------------------------------------------------------------------------
-Test set: com.pinxixi.AppTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in com.pinxixi.AppTest
->>>>>>> pinxixi
-=======
->>>>>>> d57567eb7f790b3d83549bd0d34f30e23631d97d
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in com.pinxixi.AppTest
