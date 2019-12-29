@@ -2,9 +2,9 @@ server:
   port: 8080
 spring:
   mail:
-    host: smtp.yeah.net
-    username: lingfengemail@yeah.net
-    password: a123456
+    host: smtp.qq.com
+    username: 2237919313@qq.com
+    password: uuetjbqpdqxtebbb
     port: 25
     properties:
       mail:

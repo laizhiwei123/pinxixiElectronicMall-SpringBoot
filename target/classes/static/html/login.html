@@ -39,9 +39,9 @@
 </div>
 <script type="text/javascript">
     function login() {
-       var verificationUserNameState =  verificationUserName();
+       var verificationUserNameState =  verificationEmail();
        var verificationPasswordState = verificationPassword();
-
+       console.log('verificationUserNameState: ' +verificationUserNameState +'verificationPasswordState: ' +verificationPasswordState)
        if (verificationPasswordState && verificationUserNameState) {
            var name = document.getElementById('userName').value;
            var password = document.getElementById('userPassword').value;
