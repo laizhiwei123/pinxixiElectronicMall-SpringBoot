@@ -1,0 +1,672 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d57567eb7f790b3d83549bd0d34f30e23631d97d
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en" style="font-size: 16px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>拼多多-注册</title>
+    <link rel="stylesheet" type="text/css" href="../css/pinxixi.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .top {
+            min-width: 1536px;
+            width: 100%;
+            height: 90px;
+            box-shadow: 0px 10px 15px #D3D3D3;
+            
+        }
+
+        .top-Content {
+            min-width: 1536px;
+            width: 100%;
+            height: 90px;
+            display: flex;
+            flex-direction: row;
+        }
+        .top-RedSolidLine {
+            min-width: 1536px;
+            width: 100%;
+            height: 5px;
+            background: #e3554c;
+        }
+
+        .top-logo {
+            min-width: 192px;
+            width: 192px;
+            height: 54px;
+            margin-top: 18px;
+            margin-left: 170px;
+        }
+
+        .top-title {
+            font-size: 30px;
+            margin-top: 23px;
+            margin-left: 20px;
+        }
+
+        .top-have-account {
+            font-size: 20px;
+            margin-top: 40px;
+            margin-left: 800px;
+        }
+
+        .top-have-account-login {
+            text-decoration: none;
+            color: #e3554c;
+        }
+
+        .top-have-account-login:hover {
+            text-decoration: underline;
+        }
+
+        .centreContent{
+            min-width: 1536px;
+            width: 100%;
+            height: auto;
+        }
+        .centreContent-indicatorDiagram {
+            min-width: 500px;
+            margin-top: 100px;
+            margin-left: 500px;
+            display: flex;
+            flex-direction: row;
+        }
+        .register-top-content-title {
+            width: 10rem;
+            margin-left: 1rem;
+            margin-top: 1.9rem;
+            font-size: 2rem;
+        }
+
+        .register-top-content-have-account {
+            margin-left: 35rem;
+            margin-top: 2.5rem;
+            font-size: 1.5rem;
+            color: #999;
+        }
+
+        .register-top-content-have-account-login {
+            text-decoration: none;
+            color: #e3554c;
+        }
+
+        .register-top-content-have-account-login:hover {
+            text-decoration: underline;
+        }
+
+        .register-content-indicatorDiagram {
+            width: 36rem;
+            padding-top: 5rem;
+            margin-left: 33rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .register-content-indicatorDiagram-oneVerifyPhoneNumber {
+            min-width: 5rem;
+            width: 6rem;
+        }
+
+        .register-content-indicatorDiagram-oneVerifyPhoneNumber-one {
+            margin-left: 2rem;
+            background: #3b4;
+            border-radius: 5rem;
+            width: 2rem;
+            display: block;
+            text-align: center;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .register-content-indicatorDiagram-oneVerifyPhoneNumber-VerifyPhoneNumberWord {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #3b4;
+        }
+
+        .register-content-indicatorDiagram-leader {
+            width: 7rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            color: #ccc;
+        }
+
+        .register-content-indicatorDiagram-leader-line {
+            font-size: 1.5rem;
+        }
+
+        .register-content-indicatorDiagram-leader-arrow {
+            margin-left: 0.5rem;
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .register-content-indicatorDiagram-twoBasicData {
+            min-width: 8rem;
+            width: 8rem;
+        }
+
+        .register-content-indicatorDiagram-twoBasicData-two {
+            margin-left: 2.5rem;
+            color: #ccc;
+            border: 1px solid #ccc;
+            border-radius: 5rem;
+            width: 2rem;
+            display: block;
+            text-align: center;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .register-content-indicatorDiagram-twoBasicDatr-basicData {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #ccc;
+        }
+
+        .register-content-indicatorDiagram-threSuccess {
+            min-width: 8rem;
+            width: 8rem;
+        }
+
+        .register-content-indicatorDiagram-threSuccess-three {
+            margin-left: 2.5rem;
+            color: #ccc;
+            border: 1px solid #ccc;
+            border-radius: 5rem;
+            width: 2rem;
+            display: block;
+            text-align: center;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .register-content-indicatorDiagram-threSuccess-success {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #ccc;
+            margin-left: 1rem;
+        }
+
+        .register-content-numberVerificationArea {
+            min-width: 35rem;
+            width: 35rem;
+            margin-top: 1rem;
+            margin-left: 33rem;
+
+        }
+
+        .register-content-numberVerificationArea-mobileNumberAndRegion {
+            min-width: 35rem;
+            width: 35rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+
+<body>
+<<<<<<< HEAD
+    <div class="top">
+        <div class="top-RedSolidLine"></div>
+        <div class="top-Content">
+            <!-- 顶部 -->
+            <a href="#"><img class="top-logo" src="../img/logo.png"></a>
+            <div class="top-title">欢迎注册</div>
+            <div class="top-have-account">
+                已有账号？
+                <a href="#" class="top-have-account-login">请登录></a>
+            </div>
+        </div>
+    </div>
+    <div class="centreContent">
+        <div class="centreContent-indicatorDiagram">
+            
+        </div>
+    </div>
+
+<div class="top">
+    <div class="top-redSoidLine"></div>
+    <div class="top-content">
+        <!-- 顶部 -->
+        <img class="top-content-logo" src="../img/logo.png">
+        <div class="register-top-content-title">欢迎注册</div>
+        <div class="register-top-content-have-account">
+            <span>已有账号？</span>
+            <a href="#" class="register-top-content-have-account-login">请登录></a>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="register-content-indicatorDiagram">
+        <div class="register-content-indicatorDiagram-oneVerifyPhoneNumber">
+            <span class="register-content-indicatorDiagram-oneVerifyPhoneNumber-one">1</span>
+            <p class="register-content-indicatorDiagram-oneVerifyPhoneNumber-VerifyPhoneNumberWord">验证手机号</p>
+        </div>
+        <div class="register-content-indicatorDiagram-leader">
+            <span class="register-content-indicatorDiagram-leader-line">. . . . . . .</span>
+            <span class="register-content-indicatorDiagram-leader-arrow">></span>
+        </div>
+        <div class="register-content-indicatorDiagram-twoBasicData">
+            <div class="register-content-indicatorDiagram-twoBasicData-two">2</div>
+            <div class="register-content-indicatorDiagram-twoBasicDatr-basicData">填写账号信息</div>
+        </div>
+        <div class="register-content-indicatorDiagram-leader">
+            <span class="register-content-indicatorDiagram-leader-line">. . . . . . .</span>
+            <span class="register-content-indicatorDiagram-leader-arrow">></span>
+        </div>
+        <div class="register-content-indicatorDiagram-threSuccess">
+            <div class="register-content-indicatorDiagram-threSuccess-three">3</div>
+            <div class="register-content-indicatorDiagram-threSuccess-success">注册成功</div>
+        </div>
+    </div>
+    <div class="register-content-numberVerificationArea">
+        <div class="register-content-numberVerificationArea-mobileNumberAndRegion">
+            <div style="display: flex;border: 1px solid black; border-top: none; border-left: none; border-bottom:  none; text-align: center; padding: 10px; cursor: pointer;" id="area" onclick="displayArea();">
+                中国 0086
+            </div>
+            <input style="border: none; width: 25rem;"/>
+            <span style="width: 4.4rem; background: #999;"></span>
+        </div>
+        <div style="height: 2rem;">
+
+        </div>
+        <div>
+            <div style="width: 34.8rem; height: 2rem;;border: 1px solid #ccc; text-align: center; line-height: 2rem;">
+                点击按钮进行验证
+            </div>
+            <div style="display:block" id="areaCode">
+                <div style="margin-top: -4.15rem; margin-left: 3em;">
+                    <div style=" border-style: solid;  border-width: 1rem 0.8rem 0rem; width: 0rem; height: 0rem; border-color:black  transparent  transparent;">
+                    </div>
+                </div>
+                <div
+                        style="width: 20rem; background: blanchedalmond; height:auto; position: absolute; border: 1px solid blanchedalmond; border-radius: 20px;">
+                    <input
+                            style="border: 1px solid blanchedalmond; width: 15rem; border-radius: 10px; margin-top: 0.5rem; height: 2rem; margin-left: 2rem;"/>
+                    <div style="margin-left: 2rem; margin-top: 1rem; display: flex;">
+                        <div>常用国家/地区</div>
+                        <ul style="display: flex;list-style: none;">
+                            <li style="margin-left: 0.5rem; cursor: pointer;">
+                                dad
+                            </li>
+                            <li style="margin-left: 0.5rem; cursor: pointer;">
+                                da
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var controller = 0;
+
+    function displayArea() {
+        var areaCode = document.getElementById('areaCode');
+        if (controller == 0) {
+            areaCode.style.display = 'block';
+            controller = 1;
+        } else {
+            areaCode.style.display = 'none';
+            controller = 0;
+        }
+
+
+    }
+</script>
+</body>
+
+<<<<<<< HEAD
+=======
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en" style="font-size: 16px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>拼多多-注册</title>
+    <link rel="stylesheet" type="text/css" href="../css/pinxixi.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .top {
+            min-width: 1536px;
+            width: 100%;
+            height: 90px;
+            box-shadow: 0px 10px 15px #D3D3D3;
+            
+        }
+
+        .top-Content {
+            min-width: 1536px;
+            width: 100%;
+            height: 90px;
+            display: flex;
+            flex-direction: row;
+        }
+        .top-RedSolidLine {
+            min-width: 1536px;
+            width: 100%;
+            height: 5px;
+            background: #e3554c;
+        }
+
+        .top-logo {
+            min-width: 192px;
+            width: 192px;
+            height: 54px;
+            margin-top: 18px;
+            margin-left: 170px;
+        }
+
+        .top-title {
+            font-size: 30px;
+            margin-top: 23px;
+            margin-left: 20px;
+        }
+
+        .top-have-account {
+            font-size: 20px;
+            margin-top: 40px;
+            margin-left: 800px;
+        }
+
+        .top-have-account-login {
+            text-decoration: none;
+            color: #e3554c;
+        }
+
+        .top-have-account-login:hover {
+            text-decoration: underline;
+        }
+
+        .centreContent{
+            min-width: 1536px;
+            width: 100%;
+            height: auto;
+        }
+        .centreContent-indicatorDiagram {
+            min-width: 500px;
+            margin-top: 100px;
+            margin-left: 500px;
+            display: flex;
+            flex-direction: row;
+        }
+        .register-top-content-title {
+            width: 10rem;
+            margin-left: 1rem;
+            margin-top: 1.9rem;
+            font-size: 2rem;
+        }
+
+        .register-top-content-have-account {
+            margin-left: 35rem;
+            margin-top: 2.5rem;
+            font-size: 1.5rem;
+            color: #999;
+        }
+
+        .register-top-content-have-account-login {
+            text-decoration: none;
+            color: #e3554c;
+        }
+
+        .register-top-content-have-account-login:hover {
+            text-decoration: underline;
+        }
+
+        .register-content-indicatorDiagram {
+            width: 36rem;
+            padding-top: 5rem;
+            margin-left: 33rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .register-content-indicatorDiagram-oneVerifyPhoneNumber {
+            min-width: 5rem;
+            width: 6rem;
+        }
+
+        .register-content-indicatorDiagram-oneVerifyPhoneNumber-one {
+            margin-left: 2rem;
+            background: #3b4;
+            border-radius: 5rem;
+            width: 2rem;
+            display: block;
+            text-align: center;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .register-content-indicatorDiagram-oneVerifyPhoneNumber-VerifyPhoneNumberWord {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #3b4;
+        }
+
+        .register-content-indicatorDiagram-leader {
+            width: 7rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            color: #ccc;
+        }
+
+        .register-content-indicatorDiagram-leader-line {
+            font-size: 1.5rem;
+        }
+
+        .register-content-indicatorDiagram-leader-arrow {
+            margin-left: 0.5rem;
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .register-content-indicatorDiagram-twoBasicData {
+            min-width: 8rem;
+            width: 8rem;
+        }
+
+        .register-content-indicatorDiagram-twoBasicData-two {
+            margin-left: 2.5rem;
+            color: #ccc;
+            border: 1px solid #ccc;
+            border-radius: 5rem;
+            width: 2rem;
+            display: block;
+            text-align: center;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .register-content-indicatorDiagram-twoBasicDatr-basicData {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #ccc;
+        }
+
+        .register-content-indicatorDiagram-threSuccess {
+            min-width: 8rem;
+            width: 8rem;
+        }
+
+        .register-content-indicatorDiagram-threSuccess-three {
+            margin-left: 2.5rem;
+            color: #ccc;
+            border: 1px solid #ccc;
+            border-radius: 5rem;
+            width: 2rem;
+            display: block;
+            text-align: center;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .register-content-indicatorDiagram-threSuccess-success {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #ccc;
+            margin-left: 1rem;
+        }
+
+        .register-content-numberVerificationArea {
+            min-width: 35rem;
+            width: 35rem;
+            margin-top: 1rem;
+            margin-left: 33rem;
+
+        }
+
+        .register-content-numberVerificationArea-mobileNumberAndRegion {
+            min-width: 35rem;
+            width: 35rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+
+<body>
+<<<<<<< HEAD
+    <div class="top">
+        <div class="top-RedSolidLine"></div>
+        <div class="top-Content">
+            <!-- 顶部 -->
+            <a href="#"><img class="top-logo" src="../img/logo.png"></a>
+            <div class="top-title">欢迎注册</div>
+            <div class="top-have-account">
+                已有账号？
+                <a href="#" class="top-have-account-login">请登录></a>
+            </div>
+        </div>
+    </div>
+    <div class="centreContent">
+        <div class="centreContent-indicatorDiagram">
+            
+        </div>
+    </div>
+
+<div class="top">
+    <div class="top-redSoidLine"></div>
+    <div class="top-content">
+        <!-- 顶部 -->
+        <img class="top-content-logo" src="../img/logo.png">
+        <div class="register-top-content-title">欢迎注册</div>
+        <div class="register-top-content-have-account">
+            <span>已有账号？</span>
+            <a href="#" class="register-top-content-have-account-login">请登录></a>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="register-content-indicatorDiagram">
+        <div class="register-content-indicatorDiagram-oneVerifyPhoneNumber">
+            <span class="register-content-indicatorDiagram-oneVerifyPhoneNumber-one">1</span>
+            <p class="register-content-indicatorDiagram-oneVerifyPhoneNumber-VerifyPhoneNumberWord">验证手机号</p>
+        </div>
+        <div class="register-content-indicatorDiagram-leader">
+            <span class="register-content-indicatorDiagram-leader-line">. . . . . . .</span>
+            <span class="register-content-indicatorDiagram-leader-arrow">></span>
+        </div>
+        <div class="register-content-indicatorDiagram-twoBasicData">
+            <div class="register-content-indicatorDiagram-twoBasicData-two">2</div>
+            <div class="register-content-indicatorDiagram-twoBasicDatr-basicData">填写账号信息</div>
+        </div>
+        <div class="register-content-indicatorDiagram-leader">
+            <span class="register-content-indicatorDiagram-leader-line">. . . . . . .</span>
+            <span class="register-content-indicatorDiagram-leader-arrow">></span>
+        </div>
+        <div class="register-content-indicatorDiagram-threSuccess">
+            <div class="register-content-indicatorDiagram-threSuccess-three">3</div>
+            <div class="register-content-indicatorDiagram-threSuccess-success">注册成功</div>
+        </div>
+    </div>
+    <div class="register-content-numberVerificationArea">
+        <div class="register-content-numberVerificationArea-mobileNumberAndRegion">
+            <div style="display: flex;border: 1px solid black; border-top: none; border-left: none; border-bottom:  none; text-align: center; padding: 10px; cursor: pointer;" id="area" onclick="displayArea();">
+                中国 0086
+            </div>
+            <input style="border: none; width: 25rem;"/>
+            <span style="width: 4.4rem; background: #999;"></span>
+        </div>
+        <div style="height: 2rem;">
+
+        </div>
+        <div>
+            <div style="width: 34.8rem; height: 2rem;;border: 1px solid #ccc; text-align: center; line-height: 2rem;">
+                点击按钮进行验证
+            </div>
+            <div style="display:block" id="areaCode">
+                <div style="margin-top: -4.15rem; margin-left: 3em;">
+                    <div style=" border-style: solid;  border-width: 1rem 0.8rem 0rem; width: 0rem; height: 0rem; border-color:black  transparent  transparent;">
+                    </div>
+                </div>
+                <div
+                        style="width: 20rem; background: blanchedalmond; height:auto; position: absolute; border: 1px solid blanchedalmond; border-radius: 20px;">
+                    <input
+                            style="border: 1px solid blanchedalmond; width: 15rem; border-radius: 10px; margin-top: 0.5rem; height: 2rem; margin-left: 2rem;"/>
+                    <div style="margin-left: 2rem; margin-top: 1rem; display: flex;">
+                        <div>常用国家/地区</div>
+                        <ul style="display: flex;list-style: none;">
+                            <li style="margin-left: 0.5rem; cursor: pointer;">
+                                dad
+                            </li>
+                            <li style="margin-left: 0.5rem; cursor: pointer;">
+                                da
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var controller = 0;
+
+    function displayArea() {
+        var areaCode = document.getElementById('areaCode');
+        if (controller == 0) {
+            areaCode.style.display = 'block';
+            controller = 1;
+        } else {
+            areaCode.style.display = 'none';
+            controller = 0;
+        }
+
+
+    }
+</script>
+</body>
+
+>>>>>>> pinxixi
+=======
+>>>>>>> d57567eb7f790b3d83549bd0d34f30e23631d97d
+</html>

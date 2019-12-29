@@ -1,0 +1,655 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d57567eb7f790b3d83549bd0d34f30e23631d97d
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7bf088cb-62ec-4039-a7ac-38bb5074ea05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pinxixi/controllers/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pinxixi/controllers/VerifyLoginGetUserNameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pinxixi/sevices/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pinxixi/sevices/VerifyLoginGetUserNameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pinxixi/controllers/RegistrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pinxixi/controllers/RegistrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pinxixi/dao/MerchantUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pinxixi/dao/MerchantUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pinxixi/sevices/RegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pinxixi/sevices/RegisterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pinxixi/utils/MailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pinxixi/utils/MailUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pinxixi/utils/SessionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pinxixi/utils/SessionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pinxixi.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/pinxixi.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pinxixi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pinxixi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pinxixi/dao/MerchantUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pinxixi/dao/MerchantUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pinxixi/sevices/RegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pinxixi/sevices/RegisterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pinxixi/utils/MailUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pinxixi/utils/MailUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pinxixi/utils/SessionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pinxixi/utils/SessionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/pinxixi.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/pinxixi.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/userRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/userRegister.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/pinxixi.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/pinxixi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/util.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\Code\Maven" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UhDvj7frshnAWaQRIZI4mqr2aN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.splitter.proportion" value="0.21018064" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pinxixi.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pinxixi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pinxixi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pinxixi" />
+      <option name="MAIN_CLASS_NAME" value="com.pinxixi.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pinxixi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pinxixi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pinxixi" />
+      <option name="MAIN_CLASS_NAME" value="com.pinxixi.AppTest" />
+      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="pinxixi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pinxixi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pinxixi.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+        <item itemvalue="JUnit.AppTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bf088cb-62ec-4039-a7ac-38bb5074ea05" name="Default Changelist" comment="" />
+      <created>1575800166447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575800166447</updated>
+      <workItem from="1575800171987" duration="12306000" />
+      <workItem from="1575896777693" duration="9393000" />
+      <workItem from="1575907714193" duration="135000" />
+      <workItem from="1575940370379" duration="2060000" />
+      <workItem from="1575950128069" duration="3674000" />
+      <workItem from="1575965556916" duration="6858000" />
+      <workItem from="1575982816077" duration="785000" />
+      <workItem from="1576049526431" duration="642000" />
+      <workItem from="1576118107384" duration="3112000" />
+      <workItem from="1576144673195" duration="5691000" />
+      <workItem from="1576230268149" duration="6311000" />
+      <workItem from="1576304000509" duration="13439000" />
+      <workItem from="1576376978903" duration="4666000" />
+      <workItem from="1576382671875" duration="943000" />
+      <workItem from="1576474884182" duration="12327000" />
+      <workItem from="1576541037325" duration="9942000" />
+      <workItem from="1576560489481" duration="3757000" />
+      <workItem from="1576569765036" duration="2281000" />
+      <workItem from="1576664975822" duration="8663000" />
+      <workItem from="1576750168803" duration="1066000" />
+      <workItem from="1576851111830" duration="7229000" />
+      <workItem from="1576911886587" duration="19965000" />
+      <workItem from="1576938605386" duration="5555000" />
+      <workItem from="1576986078666" duration="10269000" />
+      <workItem from="1577019751242" duration="6746000" />
+      <workItem from="1577027887305" duration="214000" />
+      <workItem from="1577077849765" duration="2421000" />
+      <workItem from="1577099766081" duration="4231000" />
+      <workItem from="1577161499198" duration="2134000" />
+      <workItem from="1577178294166" duration="2789000" />
+      <workItem from="1577193655517" duration="48000" />
+      <workItem from="1577256502384" duration="5012000" />
+      <workItem from="1577276456120" duration="6753000" />
+      <workItem from="1577335475634" duration="2016000" />
+      <workItem from="1577368066441" duration="4278000" />
+      <workItem from="1577432316299" duration="16130000" />
+      <workItem from="1577506184221" duration="10478000" />
+      <workItem from="1577591866851" duration="8883000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="73" key="#Inspections" timestamp="1575901227226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="73" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1575901227226" />
+    <state x="530" y="260" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1576854557533">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="260" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1536.824@0.0.1536.824" timestamp="1576854557533" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1577100353812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577100353812" />
+    <state x="206" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577538968693">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="206" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1577538968693" />
+    <state x="513" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1577100383232">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1577100383232" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1577277246273">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1577277246273" />
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1577600877851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577600877851" />
+    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1577600877851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577600877851" />
+    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1577600877851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577600877851" />
+    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1577600877851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577600877851" />
+    <state width="1493" height="209" key="GridCell.Tab.1.bottom" timestamp="1577600877851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577600877851" />
+    <state width="1493" height="209" key="GridCell.Tab.1.center" timestamp="1577600877851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577600877851" />
+    <state width="1493" height="209" key="GridCell.Tab.1.left" timestamp="1577600877851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577600877851" />
+    <state width="1493" height="209" key="GridCell.Tab.1.right" timestamp="1577600877851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577600877851" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1576382384035">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576382384035" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1576382384035">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1576382384035" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1576382384035">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1576382384035" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1576382384035">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1576382384035" />
+    <state x="299" y="69" key="Maven.ArtifactSearchDialog" timestamp="1576120005786">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="69" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1576120005786" />
+    <state x="309" y="0" width="1007" height="824" key="SettingsEditor" timestamp="1577336348311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="309" y="0" width="1007" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577336348311" />
+    <state x="454" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1577591888841">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="454" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577591888841" />
+    <state x="397" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576755281886">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="397" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1576755281886" />
+    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577372048599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1577372048599" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1575802293451">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1575802293451" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1576914716131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1576914716131" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1576675889067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1576675889067" />
+  </component>
+<<<<<<< HEAD
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7bf088cb-62ec-4039-a7ac-38bb5074ea05" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pinxixi/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pinxixi/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/pinxixi.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/pinxixi.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pinxixi-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/pinxixi-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pinxixi-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/pinxixi-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.pinxixi.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.pinxixi.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pinxixi/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pinxixi/AppTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\Code\Maven" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UhDvj7frshnAWaQRIZI4mqr2aN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.splitter.proportion" value="0.21018064" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pinxixi.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pinxixi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pinxixi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pinxixi" />
+      <option name="MAIN_CLASS_NAME" value="com.pinxixi.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pinxixi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pinxixi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pinxixi" />
+      <option name="MAIN_CLASS_NAME" value="com.pinxixi.AppTest" />
+      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="pinxixi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pinxixi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pinxixi.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+        <item itemvalue="JUnit.AppTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bf088cb-62ec-4039-a7ac-38bb5074ea05" name="Default Changelist" comment="" />
+      <created>1575800166447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575800166447</updated>
+      <workItem from="1575800171987" duration="12306000" />
+      <workItem from="1575896777693" duration="9393000" />
+      <workItem from="1575907714193" duration="135000" />
+      <workItem from="1575940370379" duration="2060000" />
+      <workItem from="1575950128069" duration="3674000" />
+      <workItem from="1575965556916" duration="6858000" />
+      <workItem from="1575982816077" duration="785000" />
+      <workItem from="1576049526431" duration="642000" />
+      <workItem from="1576118107384" duration="3112000" />
+      <workItem from="1576144673195" duration="5691000" />
+      <workItem from="1576230268149" duration="6311000" />
+      <workItem from="1576304000509" duration="13439000" />
+      <workItem from="1576376978903" duration="4666000" />
+      <workItem from="1576382671875" duration="943000" />
+      <workItem from="1576474884182" duration="12327000" />
+      <workItem from="1576541037325" duration="9942000" />
+      <workItem from="1576560489481" duration="3757000" />
+      <workItem from="1576569765036" duration="2281000" />
+      <workItem from="1576664975822" duration="8663000" />
+      <workItem from="1576750168803" duration="1066000" />
+      <workItem from="1576851111830" duration="7229000" />
+      <workItem from="1576911886587" duration="19965000" />
+      <workItem from="1576938605386" duration="5555000" />
+      <workItem from="1576986078666" duration="10269000" />
+      <workItem from="1577019751242" duration="6746000" />
+      <workItem from="1577027887305" duration="214000" />
+      <workItem from="1577077849765" duration="2421000" />
+      <workItem from="1577099766081" duration="4231000" />
+      <workItem from="1577161499198" duration="2134000" />
+      <workItem from="1577178294166" duration="2789000" />
+      <workItem from="1577193655517" duration="48000" />
+      <workItem from="1577256502384" duration="5012000" />
+      <workItem from="1577276456120" duration="6753000" />
+      <workItem from="1577335475634" duration="2016000" />
+      <workItem from="1577368066441" duration="4278000" />
+      <workItem from="1577432316299" duration="16130000" />
+      <workItem from="1577506184221" duration="10478000" />
+      <workItem from="1577591866851" duration="9671000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="73" key="#Inspections" timestamp="1575901227226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="73" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1575901227226" />
+    <state x="530" y="260" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1576854557533">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="260" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1536.824@0.0.1536.824" timestamp="1576854557533" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1577100353812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577100353812" />
+    <state x="206" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577538968693">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="206" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1577538968693" />
+    <state x="513" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1577100383232">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1577100383232" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1577277246273">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1577277246273" />
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1577603369402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577603369402" />
+    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1577603369402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577603369402" />
+    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1577603369402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577603369402" />
+    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1577603369402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577603369402" />
+    <state width="1493" height="209" key="GridCell.Tab.1.bottom" timestamp="1577603353835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577603353835" />
+    <state width="1493" height="209" key="GridCell.Tab.1.center" timestamp="1577603353835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577603353835" />
+    <state width="1493" height="209" key="GridCell.Tab.1.left" timestamp="1577603353835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577603353835" />
+    <state width="1493" height="209" key="GridCell.Tab.1.right" timestamp="1577603353835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577603353835" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1576382384035">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576382384035" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1576382384035">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1576382384035" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1576382384035">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1576382384035" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1576382384035">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1576382384035" />
+    <state x="299" y="69" key="Maven.ArtifactSearchDialog" timestamp="1576120005786">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="69" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1576120005786" />
+    <state x="309" y="0" width="1007" height="824" key="SettingsEditor" timestamp="1577336348311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="309" y="0" width="1007" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577336348311" />
+    <state x="454" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1577591888841">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="454" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577591888841" />
+    <state x="397" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576755281886">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="397" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1576755281886" />
+    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577372048599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1577372048599" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1575802293451">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1575802293451" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1576914716131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1576914716131" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1576675889067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1576675889067" />
+  </component>
+>>>>>>> pinxixi
+=======
+>>>>>>> d57567eb7f790b3d83549bd0d34f30e23631d97d
+</project>

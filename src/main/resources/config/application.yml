@@ -1,0 +1,60 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d57567eb7f790b3d83549bd0d34f30e23631d97d
+server:
+  port: 8080
+spring:
+  mail:
+    host: smtp.yeah.net
+    username: lingfengemail@yeah.net
+    password: a123456
+    port: 25
+    properties:
+      mail:
+        smtp:
+          port: 994
+          auth: true
+          starttls:
+            enable: true
+            required: true
+    default-encoding: utf-8
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/pinxixi?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: 2237919313
+    driver-class-name: com.mysql.cj.jdbc.Driver
+logging:
+  level:
+    yourdaoclasspackagename: debug
+<<<<<<< HEAD
+=======
+server:
+  port: 8080
+spring:
+  mail:
+    host: smtp.yeah.net
+    username: lingfengemail@yeah.net
+    password: a123456
+    port: 25
+    properties:
+      mail:
+        smtp:
+          port: 994
+          auth: true
+          starttls:
+            enable: true
+            required: true
+    default-encoding: utf-8
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/pinxixi?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: 2237919313
+    driver-class-name: com.mysql.cj.jdbc.Driver
+logging:
+  level:
+    yourdaoclasspackagename: debug
+>>>>>>> pinxixi
+=======
+>>>>>>> d57567eb7f790b3d83549bd0d34f30e23631d97d
+debug: true
