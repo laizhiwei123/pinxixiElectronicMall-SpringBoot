@@ -99,7 +99,7 @@ public class RegisterService {
         //验证邮箱是否正确
         boolean emailState = Pattern.matches("^([a-zA-Z0-9]+[_|\\_|\\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\\_|\\.]?)*[a-zA-Z0-9]+\\.[a-zA-Z]{2,3}$", email);
         System.out.println("emailState: " + emailState);
-        if ((nameLength > 0 & nameLength <= 20) && (verifyCodeLength == 6) && (passwordState) && (emailState)) {
+        if ((nameLength > 0 & nameLength <= 4) && (verifyCodeLength == 6) && (passwordState) && (emailState)) {
             //验证用户名，密码，邮箱，验证码是否正确
             return true;
         }

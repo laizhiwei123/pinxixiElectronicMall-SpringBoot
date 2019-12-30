@@ -1,7 +1,11 @@
 package com.pinxixi.controllers;
 
 import com.pinxixi.sevices.GenerateVerificationCodeSevicesImpl;
+import com.sun.mail.smtp.SMTPAddressFailedException;
+import com.sun.mail.smtp.SMTPSenderFailedException;
+import com.sun.mail.util.MailConnectException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.MailSendException;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
@@ -33,9 +37,15 @@ public class GenerateVerificationCodeController {
             return responseData;
         }
         //邮件发送状态，正确返回true，错误返回false
-        boolean sendEmailstate = generateVerificationCodeSevices.sendEmail(email);
-        if (!sendEmailstate) {
-            //发送邮件，失败返回100
+        try {
+            generateVerificationCodeSevices.sendEmail(email);
+        } catch (MailSendException e) {
+           e.printStackTrace();
+            System.out.println("dadad");
+            responseData.put("statusCode", "101");
+            return responseData;
+        } catch (MailConnectException e) {
+            e.printStackTrace();
             responseData.put("statusCode", "100");
             return responseData;
         }

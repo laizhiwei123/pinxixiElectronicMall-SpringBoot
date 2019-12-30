@@ -1,10 +1,15 @@
 package com.pinxixi.utils;
 
+import com.sun.mail.smtp.SMTPAddressFailedException;
+import com.sun.mail.util.MailConnectException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.mail.MailSendException;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Component;
+
+import javax.mail.SendFailedException;
 
 @Component
 public class MailUtil {
@@ -21,7 +26,7 @@ public class MailUtil {
         this.fromUser = fromUser;
     }
 
-    public void sendMailServer(String sendUser, String title, String text) throws Exception {
+    public void sendMailServer(String sendUser, String title, String text)  throws MailSendException, MailConnectException {
         //创建邮件的实体 用于封装发送邮件需要的信息
         SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
         //邮件的发送人

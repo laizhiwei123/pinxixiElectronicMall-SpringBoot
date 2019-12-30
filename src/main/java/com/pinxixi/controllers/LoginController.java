@@ -55,10 +55,11 @@ public class LoginController {
         }
         System.out.println("verifyNameAndPasswordState: " +verifyNameAndPasswordState);
         if (!verifyNameAndPasswordState) {
-            //账号密码错误，返回401
+            //邮箱和密码错误，返回401
             responseData.put("stateCode", "401");
             return responseData;
         }else {
+            //邮箱和密码正确写入session
             loginService.addSessionBasedEmailandpassword(email, password);
         }
 

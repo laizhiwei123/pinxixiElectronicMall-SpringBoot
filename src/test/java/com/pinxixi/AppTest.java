@@ -13,8 +13,22 @@ public class AppTest {
      */
     @Test
     public void shouldAnswerWithTrue() {
-        assertTrue(true);
+       // assertTrue(true);
 
+        try {
+            a();
+        }catch (Exception e) {
+            System.out.println("dad");
+            
+        }
+    }
+
+    public void  a() throws Exception {
+        b();
+        System.out.println("a");
+    }
+    public void b() throws Exception {
+        throw  new Exception();
     }
 
 

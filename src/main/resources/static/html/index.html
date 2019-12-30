@@ -19,12 +19,12 @@
         </div>
         <div id="login" class="top-content-userName">
             <div style="text-decoration: none;color: #969696;border: 0.1rem solid red;border-radius: 5rem; padding: 0.5rem 1rem"
-                 href="/login" onclick="location.href = '/login'">登录
+                 href="/login" onclick="location.href = '/login'">登录登录
             </div>
         </div>
     </div>
 </div>
-<div style=" position: absolute; z-index: 2;margin-left: 20rem">
+<div id="a" >
     <div style="margin-top: 0rem; margin-left: -3rem;border-style: solid;  border-width: 1rem 0.8rem 0rem; width: 0rem; height: 0rem; border-color:black  transparent  transparent;">
     </div>
 </div>
@@ -128,7 +128,7 @@
             success: function (responseData) {
                 console.log(responseData.stateCode);
                 if (responseData.stateCode === '200') {
-                    document.getElementById('login').innerHTML = '<div style="border: 0.1rem solid red;border-radius: 5rem; padding: 0.5rem 1rem">' + responseData.name + '</div>'
+                    document.getElementById('login').innerHTML = '<div style="border: 0.1rem solid red;border-radius: 5rem; padding: 0.5rem 1rem">' + responseData.name + '</div>';
                 }
             }
         }

@@ -1,6 +1,6 @@
 function verificationUserName() {
     var userNameValue = document.getElementById('userName').value;
-    if (userNameValue.length <= 0) {
+    if (userNameValue.length <= 0 || userNameValue.length > 4) {
         document.getElementById('userNameErrerTips').innerHTML = '<snap style="padding-left: 0.4rem;padding-right: 0.4rem;background: #e3554c; border-radius: 1rem;color: #FFFAFA">!</snap>' + '昵称不能为空';
         return false;
     } else {
@@ -71,6 +71,8 @@ function requestVerificationCode() {
                     redirectConfirm("邮箱已经存在，是否跳转到登录页面", "/login");
                 } else if (statusCode == 100) {
                     alert("服务器异常，请联系网站管理员");
+                }else if (statusCode == 101) {
+                    alert("您输入的邮箱不可用，请重新输入！！！");
                 }
             } else if (xhr.readyState == 4 && xhr.status != 200) {
                 //如果xhr.status 不等于200证明资源或者网络有问题
